@@ -1,0 +1,18 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+
+	<ui:with type="com.projectname.project.client.application.page1.Page1View.Resources" field="resources" />
+
+
+	<g:FlowPanel addStyleNames="{resources.css.mainPanel}">
+
+	    		 <g:HTMLPanel ui:field="mainPanel">
+    				<img ui:field="image" class="{resources.css.imagePreview}"></img>
+	    		</g:HTMLPanel>
+
+    
+    </g:FlowPanel>
+    
+    
+</ui:UiBinder>

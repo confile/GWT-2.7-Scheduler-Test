@@ -1,0 +1,70 @@
+.mainPanel {
+		background-color: #fff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		
+		display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+		display: -moz-box;      /* OLD: Firefox (buggy) */ 
+		display: -ms-flexbox;   /* MID: IE 10 */
+		display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+		display: flex;          /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+		
+		-webkit-box-orient: vertical; /* horizontal | vertical | inherit */
+		-moz-box-orient: vertical; 
+		-ms-flex-direction: column; /* row | row-reverse | column | column-reverse */
+		-webkit-flex-direction: column; /* row | row-reverse | column | column-reverse */
+		flex-direction: column; 
+}
+
+.contentPanel {
+	margin: 0 auto;
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+	display: -moz-box;      /* OLD: Firefox (buggy) */ 
+	display: -ms-flexbox;   /* MID: IE 10 */
+	display: -webkit-flex;  /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex;          /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+	
+	-webkit-box-direction: normal; 
+	-moz-box-direction: normal;
+	-webkit-box-orient: vertical; /* horizontal | vertical | inherit */
+	-moz-box-orient: vertical; 
+	-ms-flex-direction: column; /* row | row-reverse | column | column-reverse */
+	-webkit-flex-direction: column; /* row | row-reverse | column | column-reverse */
+	flex-direction: column; 
+	
+	-webkit-box-pack: center; /* start | end | center | justify */
+	-moz-box-pack: center;
+	/* box-pack: start; */ 
+	-ms-flex-pack: center; /* start | end | center | justify | distribute */
+	-webkit-justify-content: center;  /* flex-start | flex-end | center | space-between | space-around */
+	justify-content: center;  
+	
+	max-width: 400px;
+	
+	background-color: red;
+}
+
+.panel1 {
+	background-color: yellow;
+}
+
+.panel2 {
+	background-color: red;
+}
+
+.panel3 {
+	background-color: blue;
+}
+
+.imagePreview {
+	-webkit-border-radius: RADIUS_MEDIUM;
+	-moz-border-radius: RADIUS_MEDIUM;
+	border-radius: RADIUS_MEDIUM;	
+	margin: 10px auto;
+	width: 40%;
+	height: auto;
+	padding-bottom: 400px;
+}
